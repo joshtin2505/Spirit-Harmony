@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cascadia Code',sans-serif;
+    font-size: 16px;
+  }
+html{
+  height: 100%;
+}
+  
+body {
+
+  height: 100%;
+  background-image: linear-gradient(130deg, #65556f 0, #534267 16.67%, #3d3060 33.33%, #1f1f59 50%, #001152 66.67%, #00004d 83.33%, #000047 100%);
+      
+}
+  
+  nav{
+    padding: 2%;
+    background: linear-gradient(135deg, #929292, #0a0227);
+    opacity: 1;
+  }
+  
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  ul{
+    text-align: center;
+  }
+  
+  li{
+    display: inline;
+    margin-right: 2%;
+  
+    padding: 0.5%;
+    border: solid rgb(216, 216, 216);
+    border-radius: 10px;
+  }
+  
+  
+  .principal{
+    color: white;
+  }
+  div.page{
+    margin: 3% 20% 0;
+  }
+  
+  div.main{
+    /* top - rigth - bottom - left     margin: 3% 50% 0 10%;  */
+    
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 2%;
+    
+    
+  }
+  
+  h1.principal{
+    text-align: center;
+    font-style:italic;
+  }
+  
+  p.principal{
+    font-size: small;
+    font-style: italic;
+    
+  
+  }
+  
+  
+  
+  
+  
+  
+  /*https://developer.mozilla.org/es/docs/Web/CSS/CSS_Images/Using_CSS_gradients*/
